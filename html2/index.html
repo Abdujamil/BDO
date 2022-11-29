@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he-IL" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link href="dist/common.css?v=1" rel="stylesheet" />
+    <title>BDO</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <section id="header">
+      <nav class="transparent-header">
+        <div class="mx-auto">
+          <div class="head flex justify-between">
+            <!-- Primary Navbar items -->
+            <div class="login items-center text-white md:flex">
+              <span
+                class="log-text-col flex cursor-pointer transition duration-300 hover:border-b-2"
+                onclick="toggleLoginForm()"
+              >
+                <img class="logIcon ml-3" src="img/logWhite.svg" />אזור אישי
+              </span>
+              <a
+                href="#main"
+                style="text-decoration: none"
+                class="click mr-10 border-white transition duration-300 hover:border-b-2 hover:text-gray-600"
+                >אודות</a
+              >
+              <a
+                href="#services"
+                style="text-decoration: none"
+                class="click mr-10 transition duration-300 hover:border-b-2 hover:text-gray-600"
+                >שירותים</a
+              >
+              <a
+                href="#footer"
+                style="text-decoration: none"
+                class="click mr-10 transition duration-300 hover:border-b-2 hover:text-gray-600 active:border-b-2"
+                >צור קשר</a
+              >
+            </div>
+            <!-- Mobile menu button -->
+            <div class="btn-menu flex items-center md:hidden">
+              <button class="mobile-menu-button outline-none">
+                <svg
+                  class="h-6 w-6 text-white hover:text-gray-600"
+                  x-show="!showMenu"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+              </button>
+            </div>
+
+            <a href="/">
+              <img src="img/logo.png" alt="Logo" class="m-top max-w-[250px]" />
+            </a>
+          </div>
+        </div>
+        <!-- mobile menu -->
+        <div class="mobile-menu hidden bg-white">
+          <ul>
+            <li>
+              <a
+                class="log-text-col flex cursor-pointer transition duration-300 hover:border-b-2"
+                onclick="toggleLoginForm()"
+              >
+                אזור אישי
+              </a>
+            </li>
+            <li>
+              <a
+                href="#main"
+                style="text-decoration: none"
+                class="click mr-10 border-white text-sm transition duration-300 hover:border-b-2 hover:text-gray-600"
+                >אודות</a
+              >
+            </li>
+            <li>
+              <a
+                href="#services"
+                style="text-decoration: none"
+                class="click mr-10 text-sm transition duration-300 hover:border-b-2 hover:text-gray-600"
+                >שירותים</a
+              >
+            </li>
+            <li>
+              <a
+                href="#footer"
+                style="text-decoration: none"
+                class="click mr-10 text-sm transition duration-300 hover:border-b-2 hover:text-gray-600 active:border-b-2"
+                >צור קשר</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Slider main container -->
+      <div class="swiper" id="main-slider">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div
+            class="swiper-slide carousel-item"
+            style="
+              background: linear-gradient(
+                  253.34deg,
+                  rgba(0, 9, 23, 0.65) 41.41%,
+                  rgba(1, 31, 77, 0.546) 87.87%
+                ),
+                url('img/slide2.png') no-repeat;
+              background-size: cover;
+              height: 75vh;
+            "
+          >
+            <h1 class="font-almoni-bold pb-2 text-center text-6xl text-white">
+              HELPING YOU GROW YOUR INVESTING CONFIDANCE
+            </h1>
+            <p class="font-almoni-medium text-center text-white">
+              BDO נאמנויות ואחזקות 2003 בע"מ
+            </p>
+            <p class="font-almoni-medium text-center text-white">
+              שירותי אדמיניסטרציה נאמנות ופיקוח
+            </p>
+          </div>
+          <div
+            class="swiper-slide carousel-item"
+            style="
+              background: linear-gradient(
+                  253.34deg,
+                  rgba(0, 9, 23, 0.65) 41.41%,
+                  rgba(1, 31, 77, 0.546) 87.87%
+                ),
+                url('img/slide3.png') no-repeat;
+              background-size: cover;
+              height: 75vh;
+            "
+          >
+            <h1 class="font-almoni-bold pb-2 text-center text-6xl text-white">
+              The quest for profitable growth
+            </h1>
+            <p class="font-almoni-medium text-center text-white">
+              BDO נאמנויות ואחזקות 2003 בע"מ
+            </p>
+            <p class="font-almoni-medium text-center text-white">
+              שירותי אדמיניסטרציה נאמנות ופיקוח
+            </p>
+          </div>
+          <div
+            class="swiper-slide carousel-item"
+            style="
+              background: linear-gradient(
+                  253.34deg,
+                  rgba(0, 9, 23, 0.65) 41.41%,
+                  rgba(1, 31, 77, 0.546) 87.87%
+                ),
+                url('img/slide-4.png') no-repeat;
+              background-size: cover;
+              height: 75vh;
+            "
+          >
+            <h1 class="font-almoni-bold pb-2 text-center text-6xl text-white">
+              We pride ourselves on our personalized <br />
+              .approach to client service
+            </h1>
+            <p class="font-almoni-medium text-center text-white">
+              BDO נאמנויות ואחזקות 2003 בע"מ
+            </p>
+            <p class="font-almoni-medium text-center text-white">
+              שירותי אדמיניסטרציה נאמנות ופיקוח
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev slider-arrow"></div>
+        <!-- <div class="swiper-button-next"></div> -->
+      </div>
+
+      <!-- LOGIN FORMS -->
+      <div class="login-forms mx-auto hidden max-w-6xl flex-col">
+        <div class="log-form text-white">
+          <span class="close cursor-pointer" onclick="toggleLoginForm()"
+            >X</span
+          >
+          <h1 class="font-almoni-bold">התחברות</h1>
+          <p class="font-almoni-light">כניסה לאזור אישי עם קוד חד-פעמי ב-SMS</p>
+          <input
+            max="9"
+            min="4"
+            class="log-input font-almoni-light"
+            type="number"
+            placeholder="מספר תעודת זהות"
+          />
+          <button class="font-almoni-medium text-black">
+            שלחי לי קוד חד-פעמי
+          </button>
+        </div>
+
+        <div class="log-form1 text-white">
+          <div class="items1">
+            <span class="close cursor-pointer" onclick="toggleLoginForm()"
+              >X</span
+            >
+            <h1 class="font-almoni-bold mb-5">
+              כניסה לאזור אישי עם קוד חד-פעמי
+            </h1>
+            <p class="font-almoni-light mb-9">
+              שלחנו SMS עם קוד חד-פעמי למספר טלפון נייד שמסתיים בספרות 157
+            </p>
+            <input
+              class="font-almoni-light log-input"
+              type="text"
+              placeholder="הזיני את הקוד שקיבלת"
+            />
+            <button class="font-almoni-medium mb-7 text-black">המשך</button>
+            <div>
+              <p class="font-almoni-light mb-3">לא קיבלת את ה-SMS?</p>
+              <button class="font-almoni-medium text-black">
+                לחצי כאן ונשלך אליך שוב את הקוד
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="log-form2 text-white">
+          <div class="items2">
+            <span class="close cursor-pointer" onclick="toggleLoginForm()"
+              >X</span
+            >
+            <h1 class="font-almoni-bold mb-5">
+              כניסה לאזור אישי עם קוד חד-פעמי
+            </h1>
+            <p class="font-almoni-light mb-9">
+              שלחנו SMS עם קוד חד-פעמי למספר טלפון נייד שמסתיים בספרות 157
+            </p>
+            <input
+              class="font-almoni-light log-input"
+              type="text"
+              placeholder="הזיני את הקוד שקיבלת"
+            />
+            <button class="font-almoni-medium btn1 mb-7 text-black">
+              המשך
+            </button>
+            <div class="flog-desc-2">
+              <p class="font-almoni-light mb-3">לא קיבלת את ה-SMS?</p>
+              <button class="font-almoni-medium btn2 text-black">
+                לחצי כאן ונשלך אליך את הקוד
+                <br />
+                בדואר אלקטרוני
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="log-form3 text-white">
+          <div class="items3">
+            <span class="close cursor-pointer" onclick="toggleLoginForm()"
+              >X</span
+            >
+            <h1 class="font-almoni-bold mb-5">
+              כניסה לאזור אישי עם קוד חד-פעמי
+            </h1>
+            <p class="font-almoni-light mb-9">
+              שלחנו SMS עם קוד חד-פעמי בדואר האלקטרוני שלך
+            </p>
+            <input
+              class="font-almoni-light log-input"
+              type="text"
+              placeholder="הזיני את הקוד שקיבלת"
+            />
+            <button class="font-almoni-medium btn1 mb-7 text-black">
+              המשך
+            </button>
+            <div class="flog-desc-2">
+              <p class="font-almoni-light mb-3">אם עדיין לא הצלחת - פני ל...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End -->
+
+    <!-- Main -->
+    <section id="main" class="bg-grey-color">
+      <div
+        class="main-item mx-auto flex max-w-screen-lg flex-wrap justify-between text-white"
+      >
+        <div class="main__title my-16 max-w-md">
+          <h1 class="font-almoni-bold mb-4 text-3xl">אודות</h1>
+          <p class="font-almoni-light text-xs">
+            BDO נאמנויות ואחזקות 2003 בע"מ (חברת בת של BDO), מעניקה שירותי
+            אדמיניסטרציה לעשרות רבות של קרנות גידור ישראליות, קיימניות, קרנות
+            חוב, קרנות השקעה בנדל"ן ועוד. צוות החברה כולל כלכלנים, רואי חשבון
+            ועורכי דין בעלי ידע רחב וניסיון עשיר בתחום האדמיניסטרציה לקרנות.
+            לחברי הצוות היכרות מעמיקה של כל הדרישות בתחום הפיננסים, המשפט,
+            המיסוי והתפעול של הקרנות. הידע הרחב והניסיון העשיר של הצוות המקצועי
+            מבטיח את הייצוג והבקרה המקצועיים ביותר בכל משך חיי הקרן.
+          </p>
+          <br />
+          <p class="font-almoni-light text-xs">
+            אנו מקפידים על רמת שירות וזמינות הגבוהים משמעותית מהמקובל בענף. אנו
+            דוגלים בשירות אישי "בגובה העיניים", עם מנהלי הקרנות וכן עם השותפים
+            המוגבלים של הקרנות, אנו מספקים ללקוחתנו שירותים מקיפים (One stop
+            shop ) אשר מותאמים לצרכיה הפעילות של הקרנות וכך מאפשרים למנהלי
+            הקרנות להתמקד במסחר השוטף ולהניב תשואות לשותפי הקרן.
+          </p>
+          <br />
+          <p class="font-almoni-light text-xs">
+            אנו דואגים להנגיש את המידע המהותי למנהל הקרן ולמשקיע בצורה הברורה
+            והשקופה ביותר באמצעות האזור האישי באתר ובאמצעות דוחות חודשיים או
+            רבעונים בהתאם לדרישת מנהל הקרן.
+          </p>
+        </div>
+        <div class="main__title my-16 max-w-md">
+          <h1 class="font-almoni-bold mb-4 text-3xl">על הפירמה</h1>
+          <p class="font-almoni-light text-xs">
+            ISRAEL BDO היא פירמת ראיית חשבון וייעוץ עסקי דינאמית ובעלת
+            אוריינטציה עסקית, הנמנית עם חמש הפירמות הגדולות בישראל. הפירמה נוסדה
+            בשנת 1983, כחלק מהרשת הבינלאומית BDO, ומפעילה שמונה סניפים ברחבי
+            הארץ, וכן דסקים ישראליים בארה"ב, באיחוד האמירויות, בבחריין ומדינות
+            המפרץ, בסין, בהודו, בווייטנאם וביורו-אסיה.
+          </p>
+          <br />
+          <p class="font-almoni-light text-xs">
+            הפירמה מעסיקה כיום בישראל יותר מ-1,600 עובדים. BDO ISRAELמספקת
+            שירותים למגזר הפרטי, הציבורי והממשלתי ומטפלת במאות חברות ציבוריות
+            וקרנות שונות, הנסחרות בבורסות בישראל ובעולם.
+          </p>
+          <br />
+          <p class="font-almoni-light text-xs">
+            BDO ISRAEL מציעה מגוון שירותים, בהם חשבונאות וביקורת, מיסוי מקומי
+            ובינלאומי, ייעוץ פיננסי וכלכלי, ניהול סיכונים, ייעוץ וביקורת מערכות
+            מידע, ייעוץ אבטחת מידע וסייבר, ייעוץ אסטרטגי, ייעוץ בתחום השיווק
+            והדיגיטל וייעוץ תפעולי לוגיסטי.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End -->
+
+    <!-- Services -->
+    <section
+      id="services"
+      class="services mt-8 bg-cover bg-no-repeat text-white"
+    >
+      <div class="service-items mx-auto max-w-screen-lg">
+        <h1 class="font-almoni-bold mb-4 text-right text-3xl">שירותים</h1>
+        <p
+          class="service-text font-almoni-light text-sx mb-12 w-1/2 text-right"
+        >
+          BDO נאמנויות ואחזקות 2003 בע"מ (חברת בת של BDO), מעניקה שירותי
+          אדמיניסטרציה לעשרות רבות של קרנות גידור ישראליות, קיימניות, קרנות חוב,
+          קרנות השקעה בנדל"ן ועוד. אנו דואגים להנגיש את המידע המהותי למנהל הקרן
+          ולמשקיע בצורה הברורה והשקופה ביותר.
+        </p>
+        <p class="font-almoni-medium mb-9 text-xl">
+          שירותי האדמיניסטרציה כוללים בין היתר
+        </p>
+      </div>
+      <div class="service-arrows  mx-auto max-w-screen-lg" style="margin-top: 100px">
+        <div class="services-button-prev"></div>
+        <div class="services-button-next"></div>
+      </div>
+
+      <div class="swiper mx-auto max-w-screen-lg" id="services-slider">
+        <div class="swiper-wrapper mb-14">
+          <div class="swiper-slide">
+            <div class="title">
+              <img
+                class="service-image m-auto"
+                src="img/search.svg"
+                alt="Service"
+              />
+              <h4>סקירה משפטית למסמכי הקרן</h4>
+            </div>
+            <p class="service-desc font-almoni-light p-3 text-right">
+              הטמעת שליטה משותפת של מנהל הקרן והאדמיניסטרטור
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <div class="block cursor-pointer">
+              <div class="title">
+                <img
+                  class="service-image m-auto"
+                  src="img/Ресурс.svg"
+                  alt="Service"
+                />
+                <h4>שירותי ביקורת ונאמנות</h4>
+              </div>
+              <p class="service-desc font-almoni-light p-3 text-right">
+                שירותי הנהלת חשבונות לקרן שירותי ביקורת טיפול ב-FATCA ו- CRS
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="block cursor-pointer">
+              <div class="title">
+                <img
+                  class="service-image m-auto"
+                  src="img/calc.svg"
+                  alt="Service"
+                />
+                <h4>הנה"ח</h4>
+              </div>
+              <p class="service-desc font-almoni-light p-3 text-right">
+                קליטת שותפים חדשים על פי המידע שיועבר על ידי הקרן וביצוע הליכי
+                זיהוי ו'הכר את הלקוח' של שותפים חדשים בסטנדרט המקביל לגופים
+                מפוקחים על ידי הרשות לאיסור הלבנת הון. בקרנות המאוגדות באיי
+                קיימן מבוצעת הבדיקה בהתאם לסטנדרט הנדרש באיי קיימן ובישראל.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="block cursor-pointer">
+              <div class="title">
+                <img
+                  class="service-image m-auto"
+                  src="img/Coin.svg"
+                  alt="Service"
+                />
+                <h4>מרשם שותפים</h4>
+              </div>
+              <p class="service-desc font-almoni-light p-3 text-right">
+                שערוך נכסי הקרן – NAV (חודשי או רבעוני) וכן טיפול בהפצת דיווחים
+                תקופתיים לשותפי הקרן
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="block cursor-pointer">
+              <div class="title">
+                <img
+                  class="service-image m-auto"
+                  src="img/paper-pen.svg"
+                  alt="Service"
+                />
+                <h4>זכויות חתימה בחשבונות הבנק</h4>
+              </div>
+              <p class="service-desc font-almoni-light p-3 text-right">
+                פיקוח על התאמה בין כספים הנמשכים מחשבונות הקרן לבין התשלומים
+                המותרים מכח הסכם השותפות; שירותי הנהלת חשבונות לקרן; שירותי
+                ביקורת; שירותי נאמנות
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="block cursor-pointer">
+              <div class="title">
+                <img
+                  class="service-image m-auto"
+                  src="img/file.svg"
+                  alt="Service"
+                />
+                <h4>פיקוח ובקרה</h4>
+              </div>
+              <p class="service-desc font-almoni-light p-3 text-right">
+                ניהול מרשם השותפים של הקרן; כהונה כנאמן מס עבור רשות המיסים
+                בהתאם להנחיות מקדמיות (Pre ruling) של רשות המיסים
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="block cursor-pointer">
+              <div class="title">
+                <img
+                  class="service-image m-auto"
+                  src="img/Setting-coin.svg"
+                  alt="Service"
+                />
+                <h4>נאמנות מס</h4>
+              </div>
+              <p class="service-desc font-almoni-light p-3 text-right">
+                קליטת שותפים חדשים על פי המידע שיועבר על ידי הקרן וביצוע הליכי
+                זיהוי ו'הכר את הלקוח' של שותפים חדשים בסטנדרט המקביל לגופים
+                מפוקחים על ידי הרשות לאיסור הלבנת הון. בקרנות המאוגדות באיי
+                קיימן מבוצעת הבדיקה בהתאם לסטנדרט הנדרש באיי קיימן ובישראל.
+                שערוך נכסי הקרן – NAV - שערוך נכסי הקרן – NAV 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="services-button-prev"></div>
+        <div class="services-button-next"></div>
+        <div class="swiper-pagination font-almoni-light"></div>
+      </div>
+    </section>
+    <!-- End -->
+
+    <!-- Footer -->
+    <footer id="footer" class="footer min-h-footer mt-8">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1690.61786188911!2d34.78065402891735!3d32.06287252710895!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4b7b6f6b9cc9%3A0x5ea770cb638426cd!2zRGVyZWNoIE1lbmFjaGVtIEJlZ2luIDQ4LCBUZWwgQXZpdi1ZYWZvLCDQmNC30YDQsNC40LvRjA!5e0!3m2!1sru!2sru!4v1668344179713!5m2!1sen!2sen"
+        class="map"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        width="100%"
+        height="250"
+        frameborder="0"
+        style="border: 0"
+        aria-hidden="false"
+        tabindex="0"
+      >
+      </iframe>
+      <section class="form mx-auto">
+        <div class="pd-foot flex">
+          <div class="form-inputs">
+            <h1 class="font-almoni-bold txt-footer text-white">צור קשר</h1>
+            <input class="foot-input" type="text" placeholder="שם מלא" />
+            <input class="foot-input" type="text" placeholder="טלפון" />
+            <input class="foot-input3" type="text" placeholder="הודעה" />
+            <button class="btn-footer h-11 w-40 bg-white" type="button">
+              שלח
+            </button>
+          </div>
+          <div class="form-texts text-white">
+            <div class="desc text-white">
+              <h3 class="fnt-foot font-almoni-bold">כתובת</h3>
+              <p class="font-almoni-light">מנחם בגין 48 ת"א</p>
+              <h3 class="fnt-foot font-almoni-bold">טלפון</h3>
+              <p class="font-almoni-light">03-6374354, 054-7474219</p>
+              <h3 class="fnt-foot font-almoni-bold">מייל</h3>
+              <p class="font-almoni-light">ramik@bdo.co.il</p>
+            </div>
+            <div class="icons text-white">
+              <ul class="flex">
+                <li>
+                  <a href="|#"><img src="img/youtube-icon.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img class="mr-1" src="img/Instagram-icon.svg" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img class="mr-1" src="img/twitter-icon.svg" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="">
+                    <img class="mr-1" src="img/facebook-icon.svg" alt="" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- End -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

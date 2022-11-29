@@ -1,0 +1,72 @@
+[Nov 29 08:45:22] 
+[Nov 29 08:45:22] Success: dup-installer/vendor/requests/library/Requests/Transport/cacert.pem >>> C:/OSPanel/domains/BDO
+[Nov 29 08:45:22] Success: dup-installer/vendor/requests/library/Requests/Transport/cURL.php >>> C:/OSPanel/domains/BDO
+[Nov 29 08:45:22] Success: dup-installer/vendor/requests/library/Requests/Response/Headers.php >>> C:/OSPanel/domains/BDO
+[Nov 29 08:45:22] Success: dup-installer/vendor/requests/library/Requests/Exception.php >>> C:/OSPanel/domains/BDO
+[Nov 29 08:45:22] Success: dup-installer/vendor/requests/library/Requests.php >>> C:/OSPanel/domains/BDO
+[Nov 29 08:45:22] Success: dup-installer/assets/js/duplicator-tooltip.js >>> C:/OSPanel/domains/BDO
+[Nov 29 08:45:22] Success: dup-installer/assets/js/popper/popper.js >>> C:/OSPanel/domains/BDO
+[Nov 29 08:45:22] Success: dup-installer/assets/js/popper/popper.min.js >>> C:/OSPanel/domains/BDO
+[Nov 29 08:45:22] Success: dup-installer/assets/js/tippy/dup-pro-tippy.css >>> C:/OSPanel/domains/BDO
+[Nov 29 08:45:22] Success: dup-installer/assets/js/tippy/tippy-bundle.umd.min.js >>> C:/OSPanel/domains/BDO
+[Nov 29 08:45:22] Success: dup-installer/assets/js/tippy/tippy-bundle.umd.js >>> C:/OSPanel/domains/BDO
+[Nov 29 08:45:22] Success: dup-installer/assets/js/tippy/tippy.css >>> C:/OSPanel/domains/BDO
+[Nov 29 08:45:22] Success: dup-installer/assets/js/tippy/index.php >>> C:/OSPanel/domains/BDO
+[Nov 29 08:45:22] Success: dup-installer/original_files_[HASH]/entries_stored.json >>> C:/OSPanel/domains/BDO
+[Nov 29 08:45:22] Success: dup-installer/original_files_[HASH]/source_site_wpconfig >>> C:/OSPanel/domains/BDO
+[Nov 29 08:45:22] Success: dup-installer/original_files_[HASH]/.htaccess >>> C:/OSPanel/domains/BDO
+[Nov 29 08:45:22] Success: dup-installer/original_files_[HASH]/source_site_htaccess >>> C:/OSPanel/domains/BDO
+[Nov 29 08:45:22] Success: dup-installer/dup-archive__[HASH].txt >>> C:/OSPanel/domains/BDO
+[Nov 29 08:45:22] Success: dup-installer/dup-scan__[HASH].json >>> C:/OSPanel/domains/BDO
+[Nov 29 08:45:22] Success: dup-installer/dup-scanned-files__[HASH].txt >>> C:/OSPanel/domains/BDO
+[Nov 29 08:45:22] Success: dup-installer/dup-scanned-dirs__[HASH].txt >>> C:/OSPanel/domains/BDO
+[Nov 29 08:45:22] Skipping manual extract file: dup-installer/dup-manual-extract__[HASH]
+[Nov 29 08:45:22] Successfully closed archive file
+[Nov 29 08:45:22] Successfully extracted with ZipArchive
+[Nov 29 08:45:22] No need to create dup-installer/.htaccess or dup-installer/.user.ini
+[Nov 29 08:45:22] SAPI: apache2handler
+[Nov 29 08:45:22] Set permissions of dup-installer<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/addons<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/assets<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/classes<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/ctrls<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/favicon<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/libs<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/original_files_[HASH]<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/src<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/templates<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/vendor<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/dup-archive__[HASH].txt<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/dup-database__[HASH].sql<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/dup-scan__[HASH].json<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/dup-scanned-dirs__[HASH].txt<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/dup-scanned-files__[HASH].txt<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/index.php<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/main.installer.php<br/>
+[Nov 29 08:45:22] DONE: No detected errors so redirecting to the main installer. Main Installer URI = http://bdo/dup-installer/main.installer.php
+[Nov 29 08:45:22] ==DUPLICATOR INSTALLER BOOTSTRAP v1.5.1==
+[Nov 29 08:45:22] ----------------------------------------------------
+[Nov 29 08:45:22] Installer bootstrap start
+[Nov 29 08:45:22] Manual extract found so not going to extract dup-installer dir
+[Nov 29 08:45:22] EXTRACT dup-installer dir
+[Nov 29 08:45:22] NOTICE: Didn't need to extract the installer.
+[Nov 29 08:45:22] Set permissions of dup-installer<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/addons<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/assets<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/classes<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/ctrls<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/favicon<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/libs<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/original_files_[HASH]<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/src<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/templates<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/vendor<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/dup-archive__[HASH].txt<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/dup-database__[HASH].sql<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/dup-installer-csrf__[HASH].txt<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/dup-scan__[HASH].json<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/dup-scanned-dirs__[HASH].txt<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/dup-scanned-files__[HASH].txt<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/index.php<br/>
+[Nov 29 08:45:22] Set permissions of dup-installer/main.installer.php<br/>
+[Nov 29 08:45:22] DONE: No detected errors so redirecting to the main installer. Main Installer URI = http://bdo/dup-installer/main.installer.php

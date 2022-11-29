@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'UniviaPro';
+    src: url('UniviaPro/UniviaPro-Regular.eot');
+    src: local('UniviaPro/Univia Pro Regular'), local('UniviaPro-Regular'),
+        url('UniviaPro/UniviaPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('UniviaPro/UniviaPro-Regular.woff2') format('woff2'),
+        url('UniviaPro/UniviaPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'UniviaPro';
+    src: url('UniviaPro/UniviaPro-Bold.eot');
+    src: local('UniviaPro/Univia Pro Bold'), local('UniviaPro-Bold'),
+        url('UniviaPro/UniviaPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('UniviaPro/UniviaPro-Bold.woff2') format('woff2'),
+        url('UniviaPro/UniviaPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Almoni Neue DL 4.0 AAA';
+    src: url('AlmoniNeue/AlmoniNeueDL40AAA-Light.eot');
+    src: url('AlmoniNeue/AlmoniNeueDL40AAA-Light.eot?#iefix') format('embedded-opentype'),
+        url('AlmoniNeue/AlmoniNeueDL40AAA-Light.woff2') format('woff2'),
+        url('AlmoniNeue/AlmoniNeueDL40AAA-Light.woff') format('woff'),
+        url('AlmoniNeue/AlmoniNeueDL40AAA-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Almoni Neue DL 4.0 AAA';
+    src: url('AlmoniNeue/AlmoniNeueDL40AAA-Bold.eot');
+    src: url('AlmoniNeue/AlmoniNeueDL40AAA-Bold.eot?#iefix') format('embedded-opentype'),
+        url('AlmoniNeue/AlmoniNeueDL40AAA-Bold.woff2') format('woff2'),
+        url('AlmoniNeue/AlmoniNeueDL40AAA-Bold.woff') format('woff'),
+        url('AlmoniNeue/AlmoniNeueDL40AAA-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Almoni Neue DL 4.0 AAA';
+    src: url('AlmoniNeue/AlmoniNeueDL40AAA-Medium.eot');
+    src: url('AlmoniNeue/AlmoniNeueDL40AAA-Medium.eot?#iefix') format('embedded-opentype'),
+        url('AlmoniNeue/AlmoniNeueDL40AAA-Medium.woff2') format('woff2'),
+        url('AlmoniNeue/AlmoniNeueDL40AAA-Medium.woff') format('woff'),
+        url('AlmoniNeue/AlmoniNeueDL40AAA-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

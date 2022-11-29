@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: 'Almoni Neue DL 4.0 AAA', sans-serif;
+  background-color: #000;
+}
+body.rtl {
+  direction: rtl;
+}
+h1 {
+
+}
+.container {
+	background-color: #27282B;
+	border-radius: 41px;
+	width: 92.86vw;/*1783px*/
+	margin: 75px auto;
+	color: #fff;
+	overflow: auto;
+}
+
+.main {
+	justify-content: space-between;
+    width: 82.44vw;/*1583px*/
+    margin: 0 auto 113px;
+    display: flex;
+    flex-direction: row;
+}
+
+@media (min-width: 768px) {
+ 
+}
+@media (max-width: 767px) {
+
+}

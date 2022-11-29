@@ -1,0 +1,42 @@
+.header {
+	width: 81.67vw;/*1568px*/
+	height: 3.65vw;/*70px*/
+	margin: 57px auto 58px;
+	display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+	justify-content: space-between;
+}
+.logo-container {
+	display: inline-block;
+}
+.logo {
+	width: 17.76vw;/*341px*/
+	height: 3.65vw;/*70px*/
+	display: block;
+}
+.user-info-container {
+	display: flex;
+    flex-direction: row;
+}
+.user-avatar {
+	width: 30px;
+	height: 35px;
+	margin-left: 21px;
+}
+.user-name {
+	text-align: right;
+}
+.user-name .un-wrapper {
+	font-size: 16px;
+}
+.user-name .ud-wrapper {
+	font-size: 12px;
+}
+
+@media (min-width: 768px) {
+ 
+}
+@media (max-width: 767px) {
+
+}

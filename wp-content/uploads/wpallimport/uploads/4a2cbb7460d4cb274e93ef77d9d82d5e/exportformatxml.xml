@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<name><![CDATA[דוד וילנסקי]]></name>
+		<idnumber><![CDATA[12430468]]></idnumber>
+		<depositdate><![CDATA[some text 1]]></depositdate>
+		<originalinvestmentamountinthefundonthedateofinvestment><![CDATA[  200 000,00 ]]></originalinvestmentamountinthefundonthedateofinvestment>
+		<annualopeningbalance><![CDATA[  213 245,44 ]]></annualopeningbalance>
+		<email><![CDATA[stsuk.nadezhda012@ukr.net]]></email>
+	</node>
+	<node>
+		<name><![CDATA[דוד וילנסקי]]></name>
+		<idnumber><![CDATA[12430468]]></idnumber>
+		<depositdate><![CDATA[some text 2]]></depositdate>
+		<originalinvestmentamountinthefundonthedateofinvestment><![CDATA[  222 000,00 ]]></originalinvestmentamountinthefundonthedateofinvestment>
+		<annualopeningbalance><![CDATA[  24 324,00 ]]></annualopeningbalance>
+		<email><![CDATA[stsuk.nadezhda012@ukr.net]]></email>
+	</node>
+</data>

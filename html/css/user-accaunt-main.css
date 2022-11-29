@@ -1,0 +1,43 @@
+.content {
+	width: 57.55vw;/*1105px*/
+}
+
+.content-section {
+	background-color: #303136;
+	border-radius: 41px;
+	margin-bottom: 40px;
+	width: 100%;
+	overflow: hidden;
+}
+.content-section h2 {
+	line-height: 47px;
+	margin: 26px 64px;
+	font-size: 32px;
+	font-weight: bold;
+}
+.user-personal-information-wrap {
+	width: 455px;
+	margin-right: 234px;
+	line-height: 70px;	
+}
+.user-personal-information-wrap h4 {
+	line-height: 37px;
+	font-size: 25px;
+	font-weight: 500;
+	margin: 0 10px 10px 10px;
+}
+.user-personal-information-wrap .user-info-item {
+	width: auto;
+	background-color: #3f4147;
+	border: 2px solid #61636A;
+	border-radius: 35px;
+	padding: 0 28px;
+	font-size: 21px;
+	margin-bottom: 34px;
+}
+@media (min-width: 768px) {
+ 
+}
+@media (max-width: 767px) {
+
+}

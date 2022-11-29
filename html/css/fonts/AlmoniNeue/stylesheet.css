@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Almoni Neue DL 4.0 AAA';
+    src: url('AlmoniNeueDL40AAA-Light.eot');
+    src: url('AlmoniNeueDL40AAA-Light.eot?#iefix') format('embedded-opentype'),
+        url('AlmoniNeueDL40AAA-Light.woff2') format('woff2'),
+        url('AlmoniNeueDL40AAA-Light.woff') format('woff'),
+        url('AlmoniNeueDL40AAA-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Almoni Neue DL 4.0 AAA U';
+    src: url('AlmoniNeueDL40AAA-U-Black.eot');
+    src: url('AlmoniNeueDL40AAA-U-Black.eot?#iefix') format('embedded-opentype'),
+        url('AlmoniNeueDL40AAA-U-Black.woff2') format('woff2'),
+        url('AlmoniNeueDL40AAA-U-Black.woff') format('woff'),
+        url('AlmoniNeueDL40AAA-U-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Almoni Neue DL 4.0 AAA D';
+    src: url('AlmoniNeueDL40AAA-D-Bold.eot');
+    src: url('AlmoniNeueDL40AAA-D-Bold.eot?#iefix') format('embedded-opentype'),
+        url('AlmoniNeueDL40AAA-D-Bold.woff2') format('woff2'),
+        url('AlmoniNeueDL40AAA-D-Bold.woff') format('woff'),
+        url('AlmoniNeueDL40AAA-D-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Almoni Neue DL 4.0 AAA';
+    src: url('AlmoniNeueDL40AAA-Bold.eot');
+    src: url('AlmoniNeueDL40AAA-Bold.eot?#iefix') format('embedded-opentype'),
+        url('AlmoniNeueDL40AAA-Bold.woff2') format('woff2'),
+        url('AlmoniNeueDL40AAA-Bold.woff') format('woff'),
+        url('AlmoniNeueDL40AAA-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Almoni Neue DL 4.0 AAA';
+    src: url('AlmoniNeueDL40AAA-Medium.eot');
+    src: url('AlmoniNeueDL40AAA-Medium.eot?#iefix') format('embedded-opentype'),
+        url('AlmoniNeueDL40AAA-Medium.woff2') format('woff2'),
+        url('AlmoniNeueDL40AAA-Medium.woff') format('woff'),
+        url('AlmoniNeueDL40AAA-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Almoni Neue DL 4.0 AAA U';
+    src: url('AlmoniNeueDL40AAA-U-Light.eot');
+    src: url('AlmoniNeueDL40AAA-U-Light.eot?#iefix') format('embedded-opentype'),
+        url('AlmoniNeueDL40AAA-U-Light.woff2') format('woff2'),
+        url('AlmoniNeueDL40AAA-U-Light.woff') format('woff'),
+        url('AlmoniNeueDL40AAA-U-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Almoni Neue DL 4.0 AAA';
+    src: url('AlmoniNeueDL40AAA-Thin.eot');
+    src: url('AlmoniNeueDL40AAA-Thin.eot?#iefix') format('embedded-opentype'),
+        url('AlmoniNeueDL40AAA-Thin.woff2') format('woff2'),
+        url('AlmoniNeueDL40AAA-Thin.woff') format('woff'),
+        url('AlmoniNeueDL40AAA-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Almoni Neue DL 4.0 AAA U';
+    src: url('AlmoniNeueDL40AAA-U-Bold.eot');
+    src: url('AlmoniNeueDL40AAA-U-Bold.eot?#iefix') format('embedded-opentype'),
+        url('AlmoniNeueDL40AAA-U-Bold.woff2') format('woff2'),
+        url('AlmoniNeueDL40AAA-U-Bold.woff') format('woff'),
+        url('AlmoniNeueDL40AAA-U-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Almoni Neue DL 4.0 AAA';
+    src: url('AlmoniNeueDL40AAA-Black.eot');
+    src: url('AlmoniNeueDL40AAA-Black.eot?#iefix') format('embedded-opentype'),
+        url('AlmoniNeueDL40AAA-Black.woff2') format('woff2'),
+        url('AlmoniNeueDL40AAA-Black.woff') format('woff'),
+        url('AlmoniNeueDL40AAA-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Almoni Neue DL 4.0 AAA';
+    src: url('AlmoniNeueDL40AAA-Regular.eot');
+    src: url('AlmoniNeueDL40AAA-Regular.eot?#iefix') format('embedded-opentype'),
+        url('AlmoniNeueDL40AAA-Regular.woff2') format('woff2'),
+        url('AlmoniNeueDL40AAA-Regular.woff') format('woff'),
+        url('AlmoniNeueDL40AAA-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,46 @@
+.menu-bar {
+	width: 21.56vw;/*414px*/
+	background-color: #000;
+	border-radius: 41px;
+}
+.nav-admin-menu {
+	width: 15.72vw;
+    list-style: none;
+    margin: 59px auto;
+    padding: 0;
+}
+.nav-admin-menu li {
+	width: 100%;
+	height: 55px;
+	line-height: 55px;
+	border-radius: 15px;
+	margin: 32px 0;
+}
+.nav-admin-menu li:hover {
+	background-color: #ED1A3B;
+}
+.nav-admin-menu li a{
+	display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+	color: #858585;
+	text-decoration: none;
+}
+.nav-admin-menu li:hover a{
+	color: #fff;
+}
+.nav-admin-menu-icon {
+	width: 22px;
+	height: 23px;
+	margin-right: 28px;
+	margin-left: 58px;
+}
+
+@media (min-width: 768px) {
+ 
+}
+@media (max-width: 767px) {
+
+}
